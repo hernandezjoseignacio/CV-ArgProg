@@ -1,0 +1,149 @@
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+    :root{
+        --verde: #39ff14;
+        --blanco: #fff;
+        --negro: #000;
+    }
+
+    *{
+        font-family: "Titilium Web";
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    /*----------SECCION INICIO----------*/
+    .inicio{
+        background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg");
+        background-size: cover;
+        background-position: center center; 
+        color: var(--blanco);
+    }
+
+    .inicio .contenido-seccion{
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+        padding: 0 100px;
+    } 
+
+    .inicio .contenido-seccion header{
+        padding: 30px;
+    }
+
+    /*-----------MENU LATERAL-----------*/
+    .inicio .contenido-seccion header nav{
+        position: fixed;
+        margin-left: 60px;
+        background-color: var(--verde);   
+        padding: 15px;
+        border-radius: 10px;
+        text-align: left;
+        z-index: 99; 
+        display: none;
+    }
+
+    .inicio .contenido-seccion header nav a{
+        display: block;
+        color: var(--blanco);
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .inicio .contenido-seccion header .logo{
+        font-weight: bold;
+        font-size: 2.5rem;
+        font-family: "Yellowtail";
+        text-shadow: 0 0 35px var(--blanco);
+    }
+
+    .inicio .contenido-seccion header .logo .color{
+        color: var(--verde);
+        font-family: "Yellowtail";
+    }
+
+    .inicio .contenido-seccion header .nav-bar{
+        position: fixed;
+        background-color: var(--verde);
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        line-height: 50px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .inicio .contenido-seccion header .nav-bar:hover{
+        box-shadow: 0 0 35px var(--blanco);
+    }
+
+    .inicio .contenido-seccion .info{
+        padding-bottom: 30px; /*------Modificado----(Inicialmente era de 130px y creo que lo debí modificar porque la backgroun-image no es del mismo tamaño que la del ejemplo)*/
+        margin: 30px; /*-----Agregado---------(Por la misma razon que la modificacion de arriba)*/
+    }
+
+    .inicio .contenido-seccion .info h1{
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+
+    .inicio .contenido-seccion .info h2{
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: -10px;
+        letter-spacing: 2px;
+    }
+
+    .inicio .contenido-seccion .info .redes{
+        margin: 20px 0;
+    }
+
+    .inicio .contenido-seccion .info .redes a{
+        display: inline-block;
+        text-decoration: none;
+        background-color: var(--negro);
+        color: var(--verde);
+        border: 2px solid var(--verde);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 5px;
+        transition: .3s;
+    }
+
+    .inicio .contenido-seccion .info .redes a:hover{
+        color: var(--blanco);
+        background-color: var(--verde);
+        box-shadow: 0 0 20px var(--blanco);
+    }
+
+    .inicio .contenido-seccion .foto{
+        position: relative;
+    }
+
+    .inicio .contenido-seccion .foto img{
+        height: 150px; /*---Agregado---*/
+        max-width: 150px; /*---Modificado---(Inicialmente el valor era de 200)*/
+        border-radius: 50%;
+        border: 5px solid var(--verde);
+        position: absolute;
+        left: 50%;
+        top: 10px; 
+        transform: translateX(-50%);
+    }
+
+
+
+
+
+
+
+
+
+
