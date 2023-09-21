@@ -248,12 +248,13 @@
     display: flex;
     border:  1px solid var(--verde);
     padding: 2px;
-    border-radius: 3px;
+    border-radius: 15px; /*---Modificado---(Inicialmente era de 3px)*/
     margin-right: 10px;
 }
 
 .habilidades .contenido-seccion .barra .e{
     background-color: var(--verde);
+    border-radius: 50%; /*---Agregado---*/
     width: 20px;
     height: 30px;
     margin-right: 2px;
