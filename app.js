@@ -58,16 +58,16 @@ function efectoHabilidades(){ // ---Esta funcion sirve para aplicar las animacio
             pintarBarra(javascript, 11, 1, intervalJavascript);
         }, 100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 11, 2, intervalWordpress);
+            pintarBarra(wordpress, 15, 2, intervalWordpress);
         }, 100);
         const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+            pintarBarra(photoshop, 14, 3, intervalPhotoshop);
         }, 100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 16, 4, intervalPhp);
         }, 100);
         const intervalIlustrator = setInterval(function(){
-            pintarBarra(ilustrator, 11, 5, intervalIlustrator);
+            pintarBarra(ilustrator, 12, 5, intervalIlustrator);
         }, 100);
     }
 }
