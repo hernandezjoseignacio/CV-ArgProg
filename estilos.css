@@ -258,7 +258,7 @@
 }
 
 .habilidades .contenido-seccion .barra .e{
-    background-color: var(--verde);
+    background-color: #1b620e/*var(--verde)*/;
     border-radius: 47%; /*---Agregado---*/
     width: 20px;
     height: 30px;
