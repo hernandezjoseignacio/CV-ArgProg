@@ -15,6 +15,8 @@
         scroll-behavior: smooth;
     }
     
+
+
     /*----------SECCION INICIO----------*/
     .inicio{
         background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg");
@@ -33,6 +35,8 @@
     .inicio .contenido-seccion header{
         padding: 30px;
     }
+
+
 
     /*-----------MENU LATERAL-----------*/
     .inicio .contenido-seccion header nav{
@@ -137,6 +141,7 @@
         top: 10px; 
         transform: translateX(-50%);
     }
+
 
 
 /*----------Estilos Generales----------*/
@@ -261,10 +266,11 @@
 }
 
 
+
 /*----------SECCION RESUMEN----------*/
 .resumen{
     background-color: #e6e6e6;
-    padding: 140px0 100px 0;
+    padding: 140px 0 100px 0;
     text-align: center;
 }
 
@@ -333,6 +339,8 @@
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
+
+
 
 /*----------SECCION CONTACTO----------*/
 .contacto{
